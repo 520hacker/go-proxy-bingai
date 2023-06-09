@@ -32,6 +32,26 @@ export const useChatStore = defineStore(
         label: 'Cloudflare',
       },
       {
+        baseUrl: 'https://bing.vcanbb.top',
+        label: '甲骨文',
+      },
+      {
+        baseUrl: 'https://bing-railway.vcanbb.top',
+        label: 'railway1',
+      },
+      {
+        baseUrl: 'https://go-proxy-bingai-production.up.railway.app',
+        label: 'railway2',
+      },
+      {
+        baseUrl: 'https://bing-render.vcanbb.top',
+        label: 'render1',
+      },
+      {
+        baseUrl: 'https://go-proxy-bingai.onrender.com',
+        label: 'render2',
+      },
+      {
         baseUrl: location.origin,
         label: '本站',
       },
